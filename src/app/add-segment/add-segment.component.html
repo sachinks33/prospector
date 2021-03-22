@@ -1,0 +1,26 @@
+<div id="dialog-container" class="dialog-container">
+    <div class="dialog-title">
+        <h3>Add a segment</h3>
+    </div>
+    <form #addSegmentForm>
+        <div class="input-field">
+            <label for="name">Name</label><br>
+            <input type="text" id="name" name="name" placeholder="Ex: Computer Software"  [(ngModel)]="segment.name">
+        </div>
+        <div class="input-field">
+            <label for="emoji">Icon</label><br>
+            <input type="textbox" id="emoji" name="emoji" placeholder="Icon" (click)="clickField()" [(ngModel)]="segment.emoji">
+            <div id="emoji-id">
+                <emoji-mart id="emoji-list"  title="Pick your emoji…" emoji="point_up" (emojiSelect)="selectedEmoji($event)"></emoji-mart>
+            </div>
+        </div>
+        <div class="input-field">
+            <label for="description">Description</label><br>
+            <textarea name="description" id="description" cols="30" rows="10" [(ngModel)]="segment.description"></textarea>
+        </div>
+        <div class="input-field">
+            <button id="save" (click)="addSegment()">Save</button>
+            <button type="reset">Reset</button>
+        </div>
+    </form>
+</div>

@@ -1,0 +1,263 @@
+@font-face{
+    font-family: Inter;
+    src: url(//prospector/src/font/Inter/Inter-VariableFont_slnt\,wght.ttf);
+    font-style: normal;
+}
+*{
+    font-family: Inter,sans-serif;
+}
+p{
+    margin: 0px;
+}
+
+.container{
+    position: absolute;
+    height: 1081px;
+    width: 1920px;
+    left: 0px;
+    top: 0px;
+    border-radius: 0px;
+    display: grid;
+    grid-template-columns: 70px 280px auto;
+}
+h2{
+    margin: 0px;
+    font-size: 30px;
+    /* font-family: Inter; */
+    font-style: normal;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: -0.30000001192092896px;
+    text-align: left;
+}
+
+/* left Nav */
+    .ac-info-container{
+        position: absolute;
+        height: 1081px;
+        width: 70px;
+        left: 0px;
+        top: 0px;
+        border-radius: 0px;
+        float: left;
+        background-color: #E8E8E8;
+    }
+    .top-icon svg{
+        position: absolute;
+        width: 29.33px;
+        height: 40px;
+        margin: 30.94px 22.25px auto 18.42px;
+    }
+    .bottom-icons{
+        position: absolute;
+        height: 140px;
+        width: 50px;
+        left: 11px;
+        top: 906px;
+        border-radius: 0px;
+        text-align: center;
+
+    }
+    .app-store svg{
+        height: 25px;
+        width: 25px;
+        left: 23px;
+        top: 906px;
+        border-radius: 0px;
+        margin-bottom: 20.65px;
+
+    }
+    .new-feature svg{
+        height: 25px;
+        width: 25px;
+        left: 22px;
+        top: 951px;
+        border-radius: 0px;
+        margin-bottom: 20.57px;
+
+    }
+    .avatar svg{
+        position: absolute;
+        height: 50px;
+        width: 50px;
+        left: 0px;
+        top: 996px;
+        border-radius: 0px;
+        margin-bottom: 35px;
+
+    }
+
+/* segment */
+    .segment-container{
+        position: absolute;
+        width: 280px;
+        height: 1080px;
+        left: 70px;
+        top: 0px;
+        background-color: #F1F1F1;
+        
+    }
+    .main-heading h2{
+        margin-top: 29px;
+        margin-left: 29px;
+    }
+    .search{
+        display: inline-block;
+    }
+    .search input{
+        width: 89%;
+        padding:10px;
+        margin-top: 41;
+        margin-bottom: 20px;
+        margin: 41px 19px 20px 20px;
+        border: 1px solid #CCCCCC;
+        background-color: #ffff;
+    }
+    .search input::placeholder {
+        display: flex;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 12px;
+        letter-spacing: 0px;
+        text-align: left;
+        color: #3C3C3C;
+        opacity: .5;
+    }
+    .segments-heading{
+        padding: 0px 21px 10px 19px;
+    }
+    .segments-heading h4{
+        margin: 0px;
+        color: rgb(60,60,60,0.7);
+        font-size: 14px;
+        line-height: 12px;
+    }
+    .segment{
+        margin: 10px 20px;
+        background-color: #ffffff;
+    }
+    .segment :hover{
+        color: #334BFA;
+        ;
+    }
+    .segment-icon{
+        width: 20px;
+        height: 20px;
+        float: left;
+    }
+    .segment-title{
+        display: flex;
+        padding: 4px 12px;
+    }
+    .segment-title p{
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 12px;
+        letter-spacing: 0.5px;
+        text-align: left;
+    }
+    .add-segment{
+        text-align: center;
+    }
+    .add-segment button{
+        bottom: 0;
+        padding: 10px 18px;
+        margin-left: 12px;
+        margin-right: 12px;
+        margin-bottom: 44px;
+        color: #ffff;
+        background-color: #334BFA;
+        border: none;
+        border-radius: 5px;
+        height: 35px;
+        width: 255px;
+        position: absolute;
+        display: block;
+
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 12px;
+        letter-spacing: 0px;
+        text-align: left;
+    }
+    .add-segment svg{
+        margin-right: 10px;
+    }
+    /* main */
+    .main-container{
+        position: absolute;
+        width: 1570px;
+        left: 350px;
+        top: 0;
+    }
+    .header-nav{
+        height: 80px;
+    }
+    .top-divider{
+        border-bottom: 1px solid #CCCCCC;
+        margin: 0px 50px;
+    }
+    .list-view{
+        display: block;
+        float: right;
+    }
+    .list-view svg{
+        margin-top: 30px;
+        margin-bottom: 26px;
+        margin-right: 260px;
+    }
+    .table-container{
+        padding: 50px;
+    }
+    .segment-heading{
+        display: flex;
+    }
+    .segment-heading h2{
+        margin: 0px 10px;
+        float: left;
+    }
+    .segment-main-icon{
+        width: 36px;
+        height: 36px;
+        float: left;
+    }
+
+    .table{
+        /* display: inline-block; */
+        float: left;
+        border: 1px solid #EA5A47;
+        width: 80px;
+        height: 80px;
+        border-radius: 10px;
+        margin: 40px 50px;
+    }
+    .color-circle{
+        float: right;
+        margin: 0px 5px 5px 0px;
+    }
+    .table-icon{
+        text-align: center;
+        padding: 23px 20px;
+    }
+    .add-table{
+        width: 80px;
+        height: 80px;
+        border-radius: 10px;
+        display: inline-block;
+        border: 2px solid #3C3C3C;
+        margin: 40px 50px;
+    }
+    .add-table svg{
+        padding: 32px;
+    }
+    .add-table :hover{ 
+    }
+    .add-table svg :hover{
+        color: #334BFA;
+    }
+
+
+/* Add segment form */
